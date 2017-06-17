@@ -4,9 +4,11 @@ MQL4でアサーションが使いたかったので下部のURLを参考に作�
 有効時には前提条件となる評価式の判定をおこない、結果が偽の場合にはエラーを通知後にプログラムを終了（チャートから除外）する。    
 無効時には評価式の判定処理は実行されない。  
 
+
 ## Install
-1. download Assert.mqh
-2. /MQL4/Include/配下に保存する。
+1. Assert.mqhをダウンロード
+2. データフォルダを開き、/MQL4/Includes/mql4_modules/Assert/Assert.mqhとして保存
+
 
 ## Usage
 1. IS_ASSERTを定義する
