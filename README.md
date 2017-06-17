@@ -13,7 +13,7 @@ MQL4でアサーションが使いたかったので下部のURLを参考に作�
 2. Assert.mqhを読み込む
 3. assert(評価式, エラーコメント); の形式で実行する
 
-``` c_cpp
+``` cpp
 #define IS_ASSERT
 #include <assert.mqh>
 
