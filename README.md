@@ -10,12 +10,12 @@ MQL4でアサーションが使いたかったので下部のURLを参考に作�
 
 ## Usage
 1. IS_ASSERTを定義する
-2. Assert.mqhを読み込む
+2. includeでAssert.mqhを読み込む
 3. assert(評価式, エラーコメント); の形式で実行する
 
 ``` cpp
 #define IS_ASSERT
-#include <assert.mqh>
+#include <Assert.mqh>
 
 double sample(double lots, double price) {
    assert(lots > 0, "invalid parameter lots");
