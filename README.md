@@ -4,7 +4,7 @@ Simple assertion module for MQL4.
 
 ## Install
 1. Download Assert.mqh
-2. Save the file to /MQL4/Includes/mql4_modules/Assert/Assert.mqh
+2. Save the file to /MQL4/Include/mql4_modules/Assert/Assert.mqh
 
 
 ## Usage
